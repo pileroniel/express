@@ -1,3 +1,5 @@
+//to run a project, we do
+//$env:DEBUG='testapp:*'; npm start
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -39,4 +41,3 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
-//$env:DEBUG='myapp:*'; npm start
